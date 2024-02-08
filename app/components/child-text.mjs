@@ -1,7 +1,7 @@
 import enhance from '@enhance/element'
 
 const ChildText = {
-  attrs: [ 'errors', 'value' ],
+  attrs: ['errors', 'value'],
   render({ html, state }) {
     const { attrs = {} } = state
     const { label = '', name = '', type = 'text', value = '', errors = '' } = attrs
